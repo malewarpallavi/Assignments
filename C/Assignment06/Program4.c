@@ -1,11 +1,11 @@
-////////////////////////////////////////////////////////////////////////////////
-//
-// File name :   Program4.c
-// Description : Program to which accept number from user & display its table.
-// Author :      Pallavi Omprakash Malewar
-// Date :        15/06/2025
-//
-////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                      //
+// File name :   Program4.c                                                             //
+// Description : Program to which accept number from user & display its table.          //
+// Author :      Pallavi Omprakash Malewar                                              //
+// Date :        15/06/2025                                                             //
+//                                                                                      //
+//////////////////////////////////////////////////////////////////////////////////////////
 
 /*
     START

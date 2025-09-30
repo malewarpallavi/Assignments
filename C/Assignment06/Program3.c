@@ -1,11 +1,11 @@
-//////////////////////////////////////////////////////////
-//
-// File name :   Program3.c
-// Description : Program to find factorial of a number.
-// Author :      Pallavi Omprakash Malewar
-// Date :        15/06/2025
-//
-/////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////
+//                                                         //
+// File name :   Program3.c                                //
+// Description : Program to find factorial of a number.    //
+// Author :      Pallavi Omprakash Malewar                 //
+// Date :        15/06/2025                                //
+//                                                         //
+/////////////////////////////////////////////////////////////
 
 /*
     START
@@ -31,6 +31,19 @@
 
 
 #include<stdio.h>
+
+/////////////////////////////////////////////////////////////
+//                                                         //
+// Function Name      : Factorial                          //
+// Problem Statement  : Accept a number from user and      //
+//                      return its factorial.              //
+// Input              : iNo (integer) - number to find     //
+//                      factorial of                       //
+// Output             : Returns factorial of the number    //
+// Author             : Pallavi Omprakash Malewar          //
+// Date               : 15/06/2025                         //
+//                                                         //
+/////////////////////////////////////////////////////////////
 
 int Factorial(int iNo)
 {

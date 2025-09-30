@@ -1,13 +1,11 @@
-////////////////////////////////////////////////////////////////////////////////////////////
-//
-// File name :   Program2.c
-// Description : Program which accept single digit number from user and print it into word.
-// Author :      Pallavi Omprakash Malewar
-// Date :        15/06/2025
-//
-////////////////////////////////////////////////////////////////////////////////////////////
-
-#include<stdio.h>
+////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                //
+// File name :   Program2.c                                                                       //
+// Description : Program which accept single digit number from user and print it into word.       //
+// Author :      Pallavi Omprakash Malewar                                                        //
+// Date :        15/06/2025                                                                       //
+//                                                                                                //
+////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /*
     START
@@ -40,6 +38,20 @@
     END
 */
 
+#include<stdio.h>
+
+//////////////////////////////////////////////////////////////////////////////////
+//                                                                              //
+// Function Name      : Display                                                 //
+// Problem Statement  : Accept a single-digit number from user and print it     //
+//                      in words. If the number is negative, print "Minus"      //
+//                      first.                                                  //
+// Input              : iNo (integer) - single-digit number                     //
+// Output             : Prints the word corresponding to the digit or "Invalid" //
+// Author             : Pallavi Omprakash Malewar                               //
+// Date               : 15/06/2025                                              //
+//                                                                              //
+//////////////////////////////////////////////////////////////////////////////////
 
 void Display(int iNo)
 {

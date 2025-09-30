@@ -1,11 +1,11 @@
-///////////////////////////////////////////////////////////////////////////////////////////////
-//
-// File name :   Program5.c
-// Description : Program to which accept number from user & display its table in reverse order.
-// Author :      Pallavi Omprakash Malewar
-// Date :        15/06/2025
-//
-///////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                  //
+// File name :   Program5.c                                                                         //
+// Description : Program to which accept number from user & display its table in reverse order.     //
+// Author :      Pallavi Omprakash Malewar                                                          //
+// Date :        15/06/2025                                                                         //
+//                                                                                                  //
+//////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /*
     START
@@ -31,6 +31,18 @@
 
 
 #include<stdio.h>
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                  //
+// Function Name      : TableRev                                                                    //
+// Problem Statement  : Accept a number from user and display its multiplication table in reverse   //
+//                      order (from 10×N to 1×N).                                                   //
+// Input              : iNo (integer) - number whose table is to be displayed                       //
+// Output             : Prints multiplication table of the number in reverse order                  //
+// Author             : Pallavi Omprakash Malewar                                                   //
+// Date               : 15/06/2025                                                                  //
+//                                                                                                  //
+//////////////////////////////////////////////////////////////////////////////////////////////////////
 
 void TableRev(int iNo)
 {
