@@ -1,11 +1,11 @@
-////////////////////////////////////////////////////////////////////////////////////////////
-//
-// File name :   Program1.c
-// Description : Program to which accept radius of a circle from user & calculate its area.
-// Author :      Pallavi Omprakash Malewar
-// Date :        16/06/2025
-//
-////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                   //             
+// File name :   Program1.c                                                                          //
+// Description : Program to which accept radius of a circle from user & calculate its area.          //
+// Author :      Pallavi Omprakash Malewar                                                           //
+// Date :        16/06/2025                                                                          //
+//                                                                                                   //
+///////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /*
     START
@@ -27,8 +27,19 @@
     END
 */
 
-
 #include<stdio.h>
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                  //
+// Function name :   CircleArea                                                                     //
+// Description   :   Accepts the radius of a circle and returns its area                            //
+// Input         :   float fRadius  -> Radius of the circle                                         //
+// Output        :   double           -> Area of the circle                                         //
+// Logic         :   Calculate area using formula AREA = PI * R * R                                 //
+// Author        :   Pallavi Omprakash Malewar                                                      //
+// Date          :   16/06/2025                                                                     //
+//                                                                                                  //
+//////////////////////////////////////////////////////////////////////////////////////////////////////
 
 double CircleArea(float fRadius)
 {

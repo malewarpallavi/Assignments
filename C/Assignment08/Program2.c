@@ -1,11 +1,11 @@
-///////////////////////////////////////////////////////////////////////////////////////////////////
-//
-// File name :   Program2.c
-// Description : Program which accept width & height of rectangle from user & calculate its area.
-// Author :      Pallavi Omprakash Malewar
-// Date :        16/06/2025
-//
-///////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                          //
+// File name :   Program2.c                                                                                 //  
+// Description : Program which accept width & height of rectangle from user & calculate its area.           //
+// Author :      Pallavi Omprakash Malewar                                                                  //
+// Date :        16/06/2025                                                                                 //
+//                                                                                                          //
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /*
     START
@@ -28,6 +28,17 @@
 
 
 #include<stdio.h>
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                  //
+// Function name :   RectArea                                                                       //
+// Description   :   Returns area of a rectangle given width and height                             //
+// Input         :   float fWidth, float fHeight                                                    //
+// Output        :   double  -> Area of rectangle                                                   //
+// Author        :   Pallavi Omprakash Malewar                                                      //
+// Date          :   16/06/2025                                                                     //
+//                                                                                                  //
+//////////////////////////////////////////////////////////////////////////////////////////////////////
 
 double RectArea(float fWidth , float fHeight)
 {
@@ -52,6 +63,6 @@ int main()
 
     dRet = RectArea(fValue1 , fValue2);
 
-    printf("Area of rectangle is : %lf",dRet);
+    printf("Area of rectangle is : %lf\n",dRet);
     return 0;
 }

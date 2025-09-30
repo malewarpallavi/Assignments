@@ -1,11 +1,11 @@
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//
-// File name :   Program5.c
-// Description : Program which accept area in square feet & convert it into square meter.(1 Square feet = 0.0929 Square meter)
-// Author :      Pallavi Omprakash Malewar
-// Date :        16/06/2025
-//
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                                                //
+// File name :   Program5.c                                                                                                       //
+// Description : Program which accept area in square feet & convert it into square meter.(1 Square feet = 0.0929 Square meter)    //
+// Author :      Pallavi Omprakash Malewar                                                                                        //
+// Date :        16/06/2025                                                                                                       //
+//                                                                                                                                //
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /*
     START
@@ -31,6 +31,18 @@
 
 
 #include<stdio.h>
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                  //
+// Function name :   SquareMeter                                                                    //
+// Description   :   Converts area from square feet to square meters                                //
+// Input         :   int iValue  -> Area in square feet                                             //
+// Output        :   double      -> Area in square meters                                           //
+// Logic         :   Multiply square feet by 0.0929 to get square meters                            //
+// Author        :   Pallavi Omprakash Malewar                                                      //
+// Date          :   16/06/2025                                                                     //
+//                                                                                                  //
+//////////////////////////////////////////////////////////////////////////////////////////////////////
 
 double SquareMeter(int iValue)
 {

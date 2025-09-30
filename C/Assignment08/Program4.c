@@ -1,11 +1,11 @@
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//
-// File name :   Program4.c
-// Description : Program which accept temperature in Fahrenheit & convert it into Celsius.(1 Celsius = (Fahrenheit -32) * (5/9))
-// Author :      Pallavi Omprakash Malewar
-// Date :        16/06/2025
-//
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                                                  //
+// File name :   Program4.c                                                                                                         //
+// Description : Program which accept temperature in Fahrenheit & convert it into Celsius.(1 Celsius = (Fahrenheit -32) * (5/9))    //
+// Author :      Pallavi Omprakash Malewar                                                                                          //
+// Date :        16/06/2025                                                                                                         //
+//                                                                                                                                  //
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /*
     START
@@ -27,8 +27,19 @@
     END
 */
 
-
 #include<stdio.h>
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                  //
+// Function name :   FhtoCs                                                                         //
+// Description   :   Converts temperature from Fahrenheit to Celsius                                //
+// Input         :   float fTemp  -> Temperature in Fahrenheit                                      //
+// Output        :   double       -> Temperature in Celsius                                         //
+// Logic         :   Apply formula Celsius = (Fahrenheit - 32) * 5/9                                //
+// Author        :   Pallavi Omprakash Malewar                                                      //
+// Date          :   16/06/2025                                                                     //
+//                                                                                                  //
+//////////////////////////////////////////////////////////////////////////////////////////////////////
 
 double FhtoCs(float fTemp)
 {
