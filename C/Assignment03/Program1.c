@@ -1,11 +1,11 @@
-///////////////////////////////////////////////////////////////////////////////////////////////
-//
-// File name :   Program1.c
-// Description : Program to accept one number and print that number of even numbers on screen
-// Author :      Pallavi Omprakash Malewar
-// Date :        19/05/2025
-//
-/////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                  //
+// File name :   Program1.c                                                                         //
+// Description : Program to accept one number and print that number of even numbers on screen       //
+// Author :      Pallavi Omprakash Malewar                                                          //
+// Date :        19/05/2025                                                                         //
+//                                                                                                  //
+//////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /*
     START
@@ -28,8 +28,16 @@
     
 */
 
-
 #include<stdio.h>
+
+//////////////////////////////////////////////////////////////////////////////////
+//                                                                              //
+// Function Name : PrintEvenNumbers                                             //
+// Description   : Prints the first 'iNo' even numbers starting from 2          //
+// Input         : int iNo  -> the number of even numbers to print              //
+// Output        : Console output of even numbers                               //
+//                                                                              //
+//////////////////////////////////////////////////////////////////////////////////
 
 void PrintEvenNumbers(int iNo)
 {
@@ -45,9 +53,9 @@ void PrintEvenNumbers(int iNo)
         {
             printf("%d\t",iCnt);
         }
-    }
-    
+    }    
 }
+
 int main()
 {
     int iValue = 0;

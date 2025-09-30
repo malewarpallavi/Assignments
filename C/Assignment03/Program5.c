@@ -1,11 +1,11 @@
-//////////////////////////////////////////////////////////////////////////
-//
-// File name :   Program5.c
-// Description : Program to check whether given character is vowel or not
-// Author :      Pallavi Omprakash Malewar
-// Date :        20/05/2025
-//
-//////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
+//                                                                              //
+// File name :   Program5.c                                                     //
+// Description : Program to check whether given character is vowel or not       //
+// Author :      Pallavi Omprakash Malewar                                      //  
+// Date :        20/05/2025                                                     //
+//                                                                              //
+//////////////////////////////////////////////////////////////////////////////////
 
 /*
     START
@@ -30,13 +30,22 @@
 
 */
 
-
 #include<stdio.h>
 
 typedef int BOOl;
 
 #define TRUE 1
 #define FALSE 0
+
+///////////////////////////////////////////////////////////////////////////////////
+//                                                                               //
+// Function Name : CheckVowel                                                    //
+// Description   : Checks whether the given character is a vowel                 //
+//                 - Considers both uppercase and lowercase vowels               //
+// Input         : char ch  -> the character to check                            //
+// Output        : BOOl     -> TRUE if vowel, FALSE otherwise                    //
+//                                                                               //
+///////////////////////////////////////////////////////////////////////////////////
 
 BOOl CheckVowel(char ch)
 {
@@ -52,6 +61,7 @@ BOOl CheckVowel(char ch)
     }
     return bRet;
 }
+
 int main()
 {
     char cValue = '\0';

@@ -1,11 +1,11 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////
-//
-// File name :   Program2.c
-// Description : Program to accept one number and print even factors of that number.
-// Author :      Pallavi Omprakash Malewar
-// Date :        19/05/2025
-//
-/////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                           //
+// File name :   Program2.c                                                                  //
+// Description : Program to accept one number and print even factors of that number.         //
+// Author :      Pallavi Omprakash Malewar                                                   //
+// Date :        19/05/2025                                                                  //
+//                                                                                           //
+///////////////////////////////////////////////////////////////////////////////////////////////
 
 /*
     START
@@ -30,6 +30,15 @@
 */
 
 #include<stdio.h>
+
+//////////////////////////////////////////////////////////////////////////////////
+//                                                                              //
+// Function Name : DisplayFactor                                                //
+// Description   : Prints all even factors of the given number                  //
+// Input         : int iNo  -> the number whose even factors are to be printed  //
+// Output        : Console output of even factors                               //
+//                                                                              //
+//////////////////////////////////////////////////////////////////////////////////
 
 void DisplayFactor(int iNo)
 {

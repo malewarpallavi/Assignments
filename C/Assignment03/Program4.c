@@ -1,11 +1,11 @@
-/////////////////////////////////////////////////////////////////////////////////////////////////////
-//
-// File name :   Program4.c
-// Description : Program to accept one character and convert case of that character.
-// Author :      Pallavi Omprakash Malewar
-// Date :        19/05/2025
-//
-////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                  //
+// File name :   Program4.c                                                                         //
+// Description : Program to accept one character and convert case of that character.                //
+// Author :      Pallavi Omprakash Malewar                                                          //
+// Date :        19/05/2025                                                                         //
+//                                                                                                  //
+//////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /*
     START
@@ -31,15 +31,26 @@
 #include<stdio.h>
 #include<stdbool.h>
 
+///////////////////////////////////////////////////////////////////////////////////
+//                                                                               //
+// Function Name : DisplayConvert                                                //
+// Description   : Converts the case of the given alphabet character.            //
+//                 - Uppercase letters are converted to lowercase.               //
+//                 - Lowercase letters are converted to uppercase.               //
+// Input         : char ch  -> the character to be converted                     //
+// Output        : Console output of the converted character                     //
+//                                                                               //
+///////////////////////////////////////////////////////////////////////////////////
+
 void DisplayConvert(char ch)
 {
     if((ch >= 'A') && (ch <= 'Z'))
     {
-        printf("%c", ch + 32);
+        printf("%c\n", ch + 32);
     }
     else if((ch >= 'a') && (ch <= 'z'))
     {
-        printf("%c", ch - 32);
+        printf("%c\n", ch - 32);
     }
 }
 
