@@ -1,11 +1,11 @@
-/////////////////////////////////////////////////////////////
-//
-// File name :   Program4.c
-// Description : Program to check whether the Number is Divisible by 5 or not
-// Author :      Pallavi Omprakash Malewar
-// Date :        18/05/2025
-//
-/////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                    //
+// File name :   Program4.c                                                           //
+// Description : Program to check whether the Number is Divisible by 5 or not         //
+// Author :      Pallavi Omprakash Malewar                                            //
+// Date :        18/05/2025                                                           //
+//                                                                                    //
+////////////////////////////////////////////////////////////////////////////////////////
 
 /*
     
@@ -28,12 +28,20 @@
 
 */
 
-
 #include<stdio.h>
 
 typedef int BOOl;
 #define TRUE 1
 #define FALSE -1
+
+/////////////////////////////////////////////////////////////
+//                                                         //
+// Function : Check                                        //
+// Purpose  : Checks whether the number is divisible by 5  //
+// Input    : int iNo                                      //
+// Output   : int (TRUE if divisible, FALSE otherwise)     //
+//                                                         //
+/////////////////////////////////////////////////////////////
 
 BOOl Check(int iNo)
 {
@@ -59,11 +67,11 @@ int main()
 
     if(bRet == TRUE)
     {
-        printf("Divisible by 5");
+        printf("Divisible by 5\n");
     }
     else
     {
-        printf("Not Divisible by 5");
+        printf("Not Divisible by 5\n");
     }
 
     return 0;

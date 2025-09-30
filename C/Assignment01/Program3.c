@@ -1,11 +1,11 @@
-/////////////////////////////////////////////////////////////
-//
-// File name :   Program3.c
-// Description : Program to print 5 to 1 numbers on Screen
-// Author :      Pallavi Omprakash Malewar
-// Date :        18/05/2025
-//
-/////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+//                                                            //
+// File name :   Program3.c                                   //
+// Description : Program to print 5 to 1 numbers on Screen    //
+// Author :      Pallavi Omprakash Malewar                    //
+// Date :        18/05/2025                                   //
+//                                                            //
+////////////////////////////////////////////////////////////////
 
 /*
     START

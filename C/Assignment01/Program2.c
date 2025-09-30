@@ -1,11 +1,11 @@
-/////////////////////////////////////////////////////////////
-//
-// File name :   Program2.c
-// Description : Used to print 5 times "Marvellous" on Screen
-// Author :      Pallavi Omprakash Malewar
-// Date :        18/05/2025
-//
-/////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////
+//                                                               //
+// File name :   Program2.c                                      //
+// Description : Used to print 5 times "Marvellous" on Screen    //
+// Author :      Pallavi Omprakash Malewar                       //
+// Date :        18/05/2025                                      //
+//                                                               //
+///////////////////////////////////////////////////////////////////
 
 /*
     START
@@ -21,7 +21,6 @@
     END
     
 */
-
 
 #include<stdio.h>
 

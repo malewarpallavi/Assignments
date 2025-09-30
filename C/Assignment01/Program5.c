@@ -21,7 +21,6 @@
     END
 */
 
-
 #include<stdio.h>
 
 void Accept(int iNo)

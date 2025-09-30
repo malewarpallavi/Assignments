@@ -1,11 +1,11 @@
-/////////////////////////////////////////////////////////////
-//
-// File name :   Program1.c
-// Description : Used to Divide Two Numbers
-// Author :      Pallavi Omprakash Malewar
-// Date :        18/05/2025
-//
-/////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+//                                                          //
+// File name :   Program1.c                                 //
+// Description : Used to Divide Two Numbers                 //
+// Author :      Pallavi Omprakash Malewar                  //
+// Date :        18/05/2025                                 //
+//                                                          //
+//////////////////////////////////////////////////////////////
 
 /*
     START
@@ -26,8 +26,16 @@
 
 */
 
-
 #include<stdio.h>
+
+/////////////////////////////////////////////////////////////
+//                                                         //
+// Function : Divide                                       //
+// Purpose  : Performs integer division, returns -1 if /0  //
+// Input    : int iNo1, int iNo2                           //
+// Output   : int (result or -1)                           //
+//                                                         //
+/////////////////////////////////////////////////////////////
 
 int Divide(int iNo1 , int iNo2)
 {
@@ -50,7 +58,7 @@ int main()
 
     iRet = Divide(iValue1 , iValue2);
 
-    printf("Division is %d",iRet);
+    printf("Division is %d\n",iRet);
 
     return 0;
 }
