@@ -1,11 +1,11 @@
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//
-// File name :   Program2.c
-// Description : Program which accept amount in US dollar & return its corresponding value in indian currency Considering 1$ as 70 rupees.
-// Author :      Pallavi Omprakash Malewar
-// Date :        15/06/2025
-//
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                                                            //
+// File name :   Program2.c                                                                                                                   //    
+// Description : Program which accept amount in US dollar & return its corresponding value in indian currency Considering 1$ as 70 rupees.    //
+// Author :      Pallavi Omprakash Malewar                                                                                                    //
+// Date :        15/06/2025                                                                                                                   //
+//                                                                                                                                            //
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /*
     START
@@ -25,6 +25,18 @@
 
 
 #include<stdio.h>
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                  //
+// Function name :   DollarToINR                                                                    //
+// Description   :   Accepts amount in US dollars and returns equivalent value in INR               //
+// Input         :   int iNo  -> Amount in US dollars                                               //
+// Output        :   int      -> Equivalent amount in Indian Rupees                                 //
+// Logic         :   Multiply the USD amount by 70 to get INR                                       //
+// Author        :   Pallavi Omprakash Malewar                                                      //
+// Date          :   15/06/2025                                                               s      //
+//                                                                                                  //
+//////////////////////////////////////////////////////////////////////////////////////////////////////
 
 int DollarToINR(int iNo)
 {

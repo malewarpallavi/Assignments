@@ -1,11 +1,11 @@
-////////////////////////////////////////////////////////////////////
-//
-// File name :   Program3.c
-// Description : Program to find Even factorial of given number.
-// Author :      Pallavi Omprakash Malewar
-// Date :        15/06/2025
-//
-///////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////
+//                                                                  //
+// File name :   Program3.c                                         //
+// Description : Program to find Even factorial of given number.    //
+// Author :      Pallavi Omprakash Malewar                          //
+// Date :        15/06/2025                                         //
+//                                                                  //
+//////////////////////////////////////////////////////////////////////
 
 /*
     START
@@ -36,6 +36,18 @@
 
 #include<stdio.h>
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                       //
+// Function name :   EvenFactorial                                                                       //
+// Description   :   Accepts a number and returns the factorial of all even numbers up to that number    //
+// Input         :   int iNo  -> Number for which even factorial is to be calculated                     //
+// Output        :   int      -> Even factorial value                                                    //
+// Logic         :   Multiply all even numbers from 2 to iNo                                             //
+// Author        :   Pallavi Omprakash Malewar                                                           //
+// Date          :   15/06/2025                                                                          //
+//                                                                                                       //
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 int EvenFactorial(int iNo)
 {
     if(iNo < 0)
@@ -62,7 +74,7 @@ int main()
 
     iRet = EvenFactorial(iValue);
 
-    printf("Even Factorial of %d is %d",iValue,iRet);
+    printf("Even Factorial of %d is %d\n",iValue,iRet);
 
     return 0;
 }

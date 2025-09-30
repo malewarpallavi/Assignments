@@ -1,11 +1,11 @@
-////////////////////////////////////////////////////////////////////
-//
-// File name :   Program4.c
-// Description : Program to find ODD factorial of given number.
-// Author :      Pallavi Omprakash Malewar
-// Date :        15/06/2025
-//
-///////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////
+//                                                                  //
+// File name :   Program4.c                                         //
+// Description : Program to find ODD factorial of given number.     //
+// Author :      Pallavi Omprakash Malewar                          //
+// Date :        15/06/2025                                         //
+//                                                                  //
+//////////////////////////////////////////////////////////////////////
 
 /*
     START
@@ -36,6 +36,18 @@
 
 #include<stdio.h>
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                   //
+// Function name :   OddFactorial                                                                    //
+// Description   :   Accepts a number and returns the factorial of all odd numbers up to that number //
+// Input         :   int iNo  -> Number for which odd factorial is to be calculated                  //
+// Output        :   int      -> Odd factorial value                                                 //
+// Logic         :   Multiply all odd numbers from 3 to iNo                                          //
+// Author        :   Pallavi Omprakash Malewar                                                       //
+// Date          :   15/06/2025                                                                      //
+//                                                                                                   //
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+
 int OddFactorial(int iNo)
 {
     if(iNo < 0)
@@ -62,7 +74,7 @@ int main()
 
     iRet = OddFactorial(iValue);
 
-    printf("Odd Factorial of %d is %d",iValue,iRet);
+    printf("Odd Factorial of %d is %d\n",iValue,iRet);
 
     return 0;
 }

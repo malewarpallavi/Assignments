@@ -1,11 +1,11 @@
-////////////////////////////////////////////////////////////////////
-//
-// File name :   Program5.c
-// Description : Program to find difference between Even & Odd factorial of given number.
-// Author :      Pallavi Omprakash Malewar
-// Date :        15/06/2025
-//
-///////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                  //
+// File name :   Program5.c                                                                         //
+// Description : Program to find difference between Even & Odd factorial of given number.           //
+// Author :      Pallavi Omprakash Malewar                                                          //
+// Date :        15/06/2025                                                                         //
+//                                                                                                  //
+//////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /*
     START
@@ -50,6 +50,17 @@
 
 #include<stdio.h>
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                  //
+// Function name :   FactorialDiff                                                                  //
+// Description   :   Returns absolute difference between even and odd factorial of a number         //
+// Input         :   int iNo  -> Number                                                             //
+// Output        :   int      -> Absolute difference                                                //
+// Author        :   Pallavi Omprakash Malewar                                                      //
+// Date          :   15/06/2025                                                                     //
+//                                                                                                  //
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+
 int FactorialDiff(int iNo)
 {
     if(iNo < 0)
@@ -89,7 +100,7 @@ int main()
 
     iRet = FactorialDiff(iValue);
 
-    printf("Differnce between Even & Odd Factorial of %d is %d",iValue,iRet);
+    printf("Differnce between Even & Odd Factorial of %d is %d\n",iValue,iRet);
 
     return 0;
 }

@@ -1,11 +1,11 @@
-/////////////////////////////////////////////////////////////////////////////////////
-//
-// File name :   Program1.c
-// Description : Program to which accept number from user & display below pattern.
-// Author :      Pallavi Omprakash Malewar
-// Date :        15/06/2025
-//
-/////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                     //
+// File name :   Program1.c                                                            //
+// Description : Program to which accept number from user & display below pattern.     //
+// Author :      Pallavi Omprakash Malewar                                             //
+// Date :        15/06/2025                                                            //
+//                                                                                     //
+/////////////////////////////////////////////////////////////////////////////////////////
 
 // Input : 5
 // Output : *   *   *   *   *   #   #   #   #   #
