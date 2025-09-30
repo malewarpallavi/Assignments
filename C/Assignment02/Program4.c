@@ -1,11 +1,11 @@
-/////////////////////////////////////////////////////////////////
-//
-// File name :   Program4.c
-// Description : Program to Check if Number is Even or Odd
-// Author :      Pallavi Omprakash Malewar
-// Date :        19/05/2025
-//
-/////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////
+//                                                                  //
+// File name :   Program4.c                                         //
+// Description : Program to Check if Number is Even or Odd          //
+// Author :      Pallavi Omprakash Malewar                          //
+// Date :        19/05/2025                                         //
+//                                                                  //
+//////////////////////////////////////////////////////////////////////
 
 /*
     START
@@ -34,6 +34,15 @@
 #define FALSE 0
 
 typedef int BOOl;
+
+//////////////////////////////////////////////////////////////////////////////////
+//                                                                              //
+// Function Name : CheckEven                                                    //
+// Description   : Checks whether a given number is even or odd                 //
+// Input         : int iNo  -> the number to check                              //
+// Output        : BOOl     -> TRUE if even, FALSE if odd                       //
+//                                                                              //
+//////////////////////////////////////////////////////////////////////////////////
 
 BOOl CheckEven(int iNo)
 {

@@ -1,11 +1,11 @@
-/////////////////////////////////////////////////////////////////
-//
-// File name :   Program1.c
-// Description : Program to Display * number of times user want
-// Author :      Pallavi Omprakash Malewar
-// Date :        18/05/2025
-//
-/////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////
+//                                                                  //
+// File name :   Program1.c                                         //
+// Description : Program to Display * number of times user want     //
+// Author :      Pallavi Omprakash Malewar                          //
+// Date :        18/05/2025                                         //
+//                                                                  //
+//////////////////////////////////////////////////////////////////////
 
 /*
     START

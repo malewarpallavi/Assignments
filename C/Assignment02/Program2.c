@@ -1,11 +1,11 @@
-/////////////////////////////////////////////////////////////////
-//
-// File name :   Program2.c
-// Description : Program to Display Hello or Demo on Condition
-// Author :      Pallavi Omprakash Malewar
-// Date :        18/05/2025
-//
-/////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////
+//                                                                  //
+// File name :   Program2.c                                         //
+// Description : Program to Display Hello or Demo on Condition      //
+// Author :      Pallavi Omprakash Malewar                          //
+// Date :        18/05/2025                                         //
+//                                                                  //
+//////////////////////////////////////////////////////////////////////
 
 /*
     START
@@ -28,7 +28,7 @@
 
 
 #include<stdio.h>
-
+    
 void Display(int iNo)
 {
     if(iNo < 10)
