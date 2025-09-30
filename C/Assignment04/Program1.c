@@ -1,11 +1,11 @@
-///////////////////////////////////////////////////////////////////////////////
-//
-// File name :   Program1.c
-// Description : Program to display multiplication of factors of given number
-// Author :      Pallavi Omprakash Malewar
-// Date :        20/05/2025
-//
-///////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                    //
+// File name :   Program1.c                                                           //
+// Description : Program to display multiplication of factors of given number         //
+// Author :      Pallavi Omprakash Malewar                                            //
+// Date :        20/05/2025                                                           //
+//                                                                                    //
+////////////////////////////////////////////////////////////////////////////////////////
 
 /*
     START
@@ -32,8 +32,17 @@
 
 */
 
-
 #include<stdio.h>
+
+//////////////////////////////////////////////////////////////////////////////////
+//                                                                              //
+// Function Name : MulFact                                                      //
+// Description   : Calculates the multiplication of all factors of the given    //
+//                 number                                                       //
+// Input         : int iNo  -> the number whose factors are to be multiplied    //
+// Output        : int      -> multiplication of all factors                    //
+//                                                                              //
+//////////////////////////////////////////////////////////////////////////////////
 
 int MulFact(int iNo)
 {
@@ -65,7 +74,7 @@ int main()
     
     iRet = MulFact(iValue);
 
-    printf("Multiplication of factors of given Numbers : %d",iRet);
+    printf("Multiplication of factors of given Numbers : %d\n",iRet);
 
     return 0;
 }

@@ -1,11 +1,11 @@
-//////////////////////////////////////////////////////////////////////////////////////////////////
-//
-// File name :   Program5.c
-// Description : Program to Display difference between summation of all its factors & non-factors
-// Author :      Pallavi Omprakash Malewar
-// Date :        20/05/2025
-//
-//////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                      //
+// File name :   Program5.c                                                                             //  
+// Description : Program to Display difference between summation of all its factors & non-factors       //
+// Author :      Pallavi Omprakash Malewar                                                              //
+// Date :        20/05/2025                                                                             //
+//                                                                                                      //
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /*
     START
@@ -43,8 +43,17 @@
 
 */
 
-
 #include<stdio.h>
+
+///////////////////////////////////////////////////////////////////////////////////
+//                                                                               //
+// Function Name : FactDiff                                                      //
+// Description   : Calculates the absolute difference between the summation of   //
+//                 all factors and all non-factors of the given number           //
+// Input         : int iNo  -> the number whose factors and non-factors are used //
+// Output        : int      -> absolute difference between sums                  //
+//                                                                               //
+///////////////////////////////////////////////////////////////////////////////////
 
 int FactDiff(int iNo)
 {

@@ -1,11 +1,11 @@
-//////////////////////////////////////////////////////////////////////////////////
-//
-// File name :   Program4.c
-// Description : Program to display Summation of all non-factors of given number
-// Author :      Pallavi Omprakash Malewar
-// Date :        20/05/2025
-//
-//////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////
+//                                                                                   //
+// File name :   Program4.c                                                          //
+// Description : Program to display Summation of all non-factors of given number     //
+// Author :      Pallavi Omprakash Malewar                                           //
+// Date :        20/05/2025                                                          //
+//                                                                                   //
+///////////////////////////////////////////////////////////////////////////////////////
 
 /*
     START
@@ -46,6 +46,16 @@
 
 #include<stdio.h>
 
+//////////////////////////////////////////////////////////////////////////////////
+//                                                                              //
+// Function Name : NonFact                                                      //
+// Description   : Calculates the summation of all non-factors of the given     //
+//                 number                                                       //
+// Input         : int iNo  -> the number whose non-factors are to be summed    //
+// Output        : int      -> sum of all non-factors                           //
+//                                                                              //
+//////////////////////////////////////////////////////////////////////////////////
+
 int NonFact(int iNo)
 {
     int iCnt = 0 , iSum = 0;
@@ -75,7 +85,7 @@ int main()
 
     iRet = NonFact(iValue);
 
-    printf("Summation of factors of %d is %d" , iValue ,iRet);
+    printf("Summation of factors of %d is %d\n" , iValue ,iRet);
 
     return 0;
 }

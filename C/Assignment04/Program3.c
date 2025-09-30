@@ -1,11 +1,11 @@
-//////////////////////////////////////////////////////
-//
-// File name :   Program3.c
-// Description : Program to display all non-factors 
-// Author :      Pallavi Omprakash Malewar
-// Date :        20/05/2025
-//
-/////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+//                                                            //  
+// File name :   Program3.c                                   //
+// Description : Program to display all non-factors           //
+// Author :      Pallavi Omprakash Malewar                    //
+// Date :        20/05/2025                                   //
+//                                                            //
+////////////////////////////////////////////////////////////////
 
 /*
     START
@@ -31,8 +31,16 @@
     
 */
 
-
 #include<stdio.h>
+
+//////////////////////////////////////////////////////////////////////////////////
+//                                                                              //
+// Function Name : NonFact                                                      //
+// Description   : Prints all non-factors of the given number                   //
+// Input         : int iNo  -> the number whose non-factors are to be displayed //
+// Output        : Console output of all non-factors                            //
+//                                                                              //
+//////////////////////////////////////////////////////////////////////////////////
 
 void NonFact(int iNo)
 {
