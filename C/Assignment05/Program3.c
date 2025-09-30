@@ -1,10 +1,10 @@
 /////////////////////////////////////////////////////////////////////////////////////////
-//
-// File name :   Program3.c
-// Description : Program which accept number from user & print its number line.
-// Author :      Pallavi Omprakash Malewar
-// Date :        15/06/2025
-//
+//                                                                                     //
+// File name :   Program3.c                                                            //
+// Description : Program which accept number from user & print its number line.        //
+// Author :      Pallavi Omprakash Malewar                                             //
+// Date :        15/06/2025                                                            //
+//                                                                                     //
 /////////////////////////////////////////////////////////////////////////////////////////
 
 /*
@@ -44,6 +44,7 @@ void Display(int iNo)
     {
         printf("%d\t",iCount);
     }
+    printf("\n");
 }
 
 int main()

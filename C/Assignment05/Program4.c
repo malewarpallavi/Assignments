@@ -1,11 +1,11 @@
-/////////////////////////////////////////////////////////////////////////////////////////
-//
-// File name :   Program4.c
-// Description : Program which accept N from user & print all odd numbers upto N.
-// Author :      Pallavi Omprakash Malewar
-// Date :        15/06/2025
-//
-/////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                      //
+// File name :   Program4.c                                                             //
+// Description : Program which accept N from user & print all odd numbers upto N.       //
+// Author :      Pallavi Omprakash Malewar                                              //
+// Date :        15/06/2025                                                             //
+//                                                                                      //
+//////////////////////////////////////////////////////////////////////////////////////////
 
 /*
     START
@@ -44,6 +44,7 @@ void OddDisplay(int iNo)
     {
         printf("%d\t",iCount);
     }
+    printf("\n");
 }
 
 int main()

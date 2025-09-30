@@ -1,11 +1,11 @@
-/////////////////////////////////////////////////////////////////////////////
-//
-// File name :   Program5.c
-// Description : Program which accept N & print first 5 multiples of of N.
-// Author :      Pallavi Omprakash Malewar
-// Date :        15/06/2025
-//
-/////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
+//                                                                              //
+// File name :   Program5.c                                                     //
+// Description : Program which accept N & print first 5 multiples of of N.      //  
+// Author :      Pallavi Omprakash Malewar                                      //
+// Date :        15/06/2025                                                     //
+//                                                                              //
+//////////////////////////////////////////////////////////////////////////////////
 
 /*
     START
@@ -37,6 +37,15 @@
 
 
 #include<stdio.h>
+
+//////////////////////////////////////////////////////////////////////////////////
+//                                                                              //
+// Function: MultipleDisplay                                                    //
+// Description: Prints first 5 multiples of the given number                    //
+// Input: iNo (integer)                                                         //
+// Output: First 5 multiples of iNo printed on screen                           //
+//                                                                              //
+//////////////////////////////////////////////////////////////////////////////////
 
 void MultipleDisplay(int iNo)
 {

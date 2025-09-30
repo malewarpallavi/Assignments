@@ -1,11 +1,11 @@
-/////////////////////////////////////////////////////////////////////////////////////////
-//
-// File name :   Program2.c
-// Description : Program which accept number from user & print numbers till that number.
-// Author :      Pallavi Omprakash Malewar
-// Date :        15/06/2025
-//
-/////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                  //
+// File name :   Program2.c                                                                         //
+// Description : Program which accept number from user & print numbers till that number.            //
+// Author :      Pallavi Omprakash Malewar                                                          //  
+// Date :        15/06/2025                                                                         //
+//                                                                                                  //
+//////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /*
     START
@@ -44,6 +44,7 @@ void Display(int iNo)
     {
         printf("%d\t",iCount);
     }
+    printf("\n");
 }
 
 int main()
