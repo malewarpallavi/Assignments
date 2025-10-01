@@ -1,11 +1,11 @@
-//////////////////////////////////////////////////////////////////////////////////////////////////////
-//
-// File name :   Program3.c
-// Description : Program which accept number from user & return the count of digits in between 3 & 7.
-// Author :      Pallavi Omprakash Malewar
-// Date :        20/06/2025
-//
-//////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                          //
+// File name :   Program3.c                                                                                 //
+// Description : Program which accept number from user & return the count of digits in between 3 & 7.       //
+// Author :      Pallavi Omprakash Malewar                                                                  //
+// Date :        20/06/2025                                                                                 //
+//                                                                                                          //
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /*
 Input : 2395
@@ -23,6 +23,17 @@ Output : 0
 
 #include<stdio.h>
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                          //
+// Description   : Function accepts integer and returns count of digits which are in between 3 and 7.       //
+// Function Name : CountRange                                                                               //
+// Input         : int iNo                                                                                  //
+// Output        : int (Count of digits between 3 and 7)                                                    //
+// Author        : Pallavi Omprakash Malewar                                                                //
+// Date          : 20/06/2025                                                                               //
+//                                                                                                          //
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 int CountRange(int iNo) //ino defines first number
 {
     int iDigit = 0;
@@ -39,7 +50,6 @@ int CountRange(int iNo) //ino defines first number
         }
         iNo = iNo / 10;
     }
-    
 
     return iCnt;
 }

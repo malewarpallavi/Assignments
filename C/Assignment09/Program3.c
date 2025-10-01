@@ -1,11 +1,11 @@
-/////////////////////////////////////////////////////////////////////////////////////////
-//
-// File name :   Program3.c
-// Description : Program to which accept number from user & count frequency of 2 in it.
-// Author :      Pallavi Omprakash Malewar
-// Date :        20/06/2025
-//
-////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                          //
+// File name :   Program3.c                                                                 //
+// Description : Program to which accept number from user & count frequency of 2 in it.     //  
+// Author :      Pallavi Omprakash Malewar                                                  //
+// Date :        20/06/2025                                                                 //
+//                                                                                          //
+//////////////////////////////////////////////////////////////////////////////////////////////
 
 /*
 Input : 2395
@@ -49,7 +49,7 @@ int main()
 
     iRet = CountTwo(iValue);
 
-    printf("2 came %d times.",iRet);
+    printf("2 came %d times.\n",iRet);
 
     return 0;
 }

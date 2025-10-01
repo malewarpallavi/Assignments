@@ -1,11 +1,11 @@
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//
-// File name :   Program5.c
-// Description : Program to which accept number from user & count frequency in such a digits which are less than 6.
-// Author :      Pallavi Omprakash Malewar
-// Date :        20/06/2025
-//
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                                          //
+// File name :   Program5.c                                                                                                 //
+// Description : Program to which accept number from user & count frequency in such a digits which are less than 6.         //
+// Author :      Pallavi Omprakash Malewar                                                                                  //  
+// Date :        20/06/2025                                                                                                 //
+//                                                                                                                          //
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /*
 Input : 2395
@@ -49,7 +49,7 @@ int main()
 
     iRet = Count(iValue);
 
-    printf("%d",iRet);
+    printf("%d\n",iRet);
 
     return 0;
 }

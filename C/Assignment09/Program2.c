@@ -1,11 +1,11 @@
-//////////////////////////////////////////////////////////////////////////////////////////////////////
-//
-// File name :   Program2.c
-// Description : Program to which accept number from user & check whether it contains 0 in it or not.
-// Author :      Pallavi Omprakash Malewar
-// Date :        20/06/2025
-//
-//////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                          //
+// File name :   Program2.c                                                                                 //
+// Description : Program to which accept number from user & check whether it contains 0 in it or not.       //
+// Author :      Pallavi Omprakash Malewar                                                                  //
+// Date :        20/06/2025                                                                                 //
+//                                                                                                          //
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /*
 Input : 2395
@@ -63,11 +63,11 @@ int main()
 
     if(bRet == TRUE)
     {
-        printf("It Contains Zero");
+        printf("It Contains Zero\n");
     }
     else
     {
-        printf("There is no Zero");
+        printf("There is no Zero\n");
     }
 
     return 0;

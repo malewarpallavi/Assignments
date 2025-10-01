@@ -1,11 +1,11 @@
-//////////////////////////////////////////////////////////////////////////////////////////////////////
-//
-// File name :   Program4.c
-// Description : Program which accept number from user & return the multiplication of all digits.
-// Author :      Pallavi Omprakash Malewar
-// Date :        20/06/2025
-//
-//////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                      //
+// File name :   Program4.c                                                                             //
+// Description : Program which accept number from user & return the multiplication of all digits.       //
+// Author :      Pallavi Omprakash Malewar                                                              //
+// Date :        20/06/2025                                                                             //
+//                                                                                                      //
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /*
 Input : 2395
@@ -22,6 +22,17 @@ Output : 864
 */
 
 #include<stdio.h>
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                      //
+// Description   : Function accepts integer and returns multiplication of all digits present in it.     //
+// Function Name : MultDigits                                                                           //
+// Input         : int iNo                                                                              //
+// Output        : int (Multiplication of all digits)                                                   //
+// Author        : Pallavi Omprakash Malewar                                                            //
+// Date          : 20/06/2025                                                                           //
+//                                                                                                      //
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 int MultDigits(int iNo)
 {
@@ -47,7 +58,7 @@ int main()
 
     iRet = MultDigits(iValue);
 
-    printf("Multiplication of Digits of given numbers : %d",iRet);
+    printf("Multiplication of Digits of given numbers : %d\n",iRet);
 
     return 0;
 }

@@ -1,11 +1,11 @@
-//////////////////////////////////////////////////////////////////////////////////////////
-//
-// File name :   Program2.c
-// Description : Program which accept number from user & return the count of Odd Digits.
-// Author :      Pallavi Omprakash Malewar
-// Date :        20/06/2025
-//
-//////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                          //
+// File name :   Program2.c                                                                 //
+// Description : Program which accept number from user & return the count of Odd Digits.    //
+// Author :      Pallavi Omprakash Malewar                                                  //
+// Date :        20/06/2025                                                                 //
+//                                                                                          //
+//////////////////////////////////////////////////////////////////////////////////////////////
 
 /*
 Input : 2395
@@ -22,6 +22,17 @@ Output : 0
 */
 
 #include<stdio.h>
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                              //
+// Description   : Function accepts integer and returns count of odd digits present in it.      //
+// Function Name : CountOdd                                                                     //
+// Input         : int iNo                                                                      //
+// Output        : int (Count of odd digits)                                                    //
+// Author        : Pallavi Omprakash Malewar                                                    //
+// Date          : 20/06/2025                                                                   //
+//                                                                                              //
+//////////////////////////////////////////////////////////////////////////////////////////////////
 
 int CountOdd(int iNo)
 {
@@ -49,7 +60,7 @@ int main()
 
     iRet = CountOdd(iValue);
 
-    printf("Count of odd digits : %d",iRet);
+    printf("Count of odd digits : %d\n",iRet);
 
     return 0;
 }

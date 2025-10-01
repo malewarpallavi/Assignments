@@ -1,11 +1,11 @@
-////////////////////////////////////////////////////////////////////////////////
-//
-// File name :   Program1.c
-// Description : Program which accept number from user & return alphabets
-// Author :      Pallavi Omprakash Malewar
-// Date :        21/06/2025
-//
-////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
+//                                                                              //
+// File name :   Program1.c                                                     //  
+// Description : Program which accept number from user & return alphabets       //
+// Author :      Pallavi Omprakash Malewar                                      //
+// Date :        21/06/2025                                                     //
+//                                                                              //
+//////////////////////////////////////////////////////////////////////////////////
 
 
 /*
@@ -26,7 +26,7 @@ void Pattern(int iNo)
     {
         printf("%c\t" , 'A' + iCount);
     }
-    
+    printf("\n");
 }
 
 int main()

@@ -1,11 +1,11 @@
-//////////////////////////////////////////////////////////////////////////////////////////////////
-//
-// File name :   Program1.c
-// Description : Program to which accept number from user & display its digits in reverse order.
-// Author :      Pallavi Omprakash Malewar
-// Date :        20/06/2025
-//
-//////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                  //
+// File name :   Program1.c                                                                         //
+// Description : Program to which accept number from user & display its digits in reverse order.    //
+// Author :      Pallavi Omprakash Malewar                                                          //
+// Date :        20/06/2025                                                                         //
+//                                                                                                  //
+//////////////////////////////////////////////////////////////////////////////////////////////////////
 
 #include<stdio.h>
 

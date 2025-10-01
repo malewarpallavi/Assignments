@@ -1,11 +1,12 @@
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//
-// File name :   Program4.c
-// Description : Program which accept number of rows & number of columns from user & display below pattern
-// Author :      Pallavi Omprakash Malewar
-// Date :        11/07/2025
-//
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////
+//                                                                                  //
+// File name :   Program2.c                                                         //
+// Description : Program which accept number of rows & columns from user and        //
+//               display below pattern                                              //
+// Author :      Pallavi Omprakash Malewar                                          //
+// Date :        11/07/2025                                                         //
+//                                                                                  //
+//////////////////////////////////////////////////////////////////////////////////////
 
 
 /*
@@ -14,7 +15,7 @@ Input :     iRow = 4      iCol = 5
 Output :    4   4   4   4   4
             3   3   3   3   3
             2   2   2   2   2
-            1   1   1   1   1
+            1   1   1   1   1 
 */
 
 
@@ -38,7 +39,7 @@ int main()
 {
     int iValue1 = 0 , iValue2 = 0;
 
-    printf("Enter Number of Rows & Columns : ");
+    printf("Enter Number of Rows & Columns :\n");
     scanf("%d %d" ,&iValue1 , &iValue2);
 
     Pattern(iValue1 , iValue2);

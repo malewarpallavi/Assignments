@@ -1,10 +1,10 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////
-//
-// File name :   Program1.c
-// Description : Program which accept number from user & return the count of Even Digits.
-// Author :      Pallavi Omprakash Malewar
-// Date :        20/06/2025
-//
+//                                                                                              //
+// File name :   Program1.c                                                                     //
+// Description : Program which accept number from user & return the count of Even Digits.       //
+// Author :      Pallavi Omprakash Malewar                                                      //
+// Date :        20/06/2025                                                                     //
+//                                                                                              //
 //////////////////////////////////////////////////////////////////////////////////////////////////
 
 /*
@@ -22,6 +22,17 @@ Output : 4
 */
 
 #include<stdio.h>
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                              //
+// Description   : Function accepts integer and returns count of even digits present in it.     //
+// Function Name : CountEven                                                                    //
+// Input         : int iNo                                                                      //
+// Output        : int (Count of even digits)                                                   //
+// Author        : Pallavi Omprakash Malewar                                                    //
+// Date          : 20/06/2025                                                                   //
+//                                                                                              //
+//////////////////////////////////////////////////////////////////////////////////////////////////
 
 int CountEven(int iNo)
 {
@@ -49,7 +60,7 @@ int main()
 
     iRet = CountEven(iValue);
 
-    printf("Count of present Even Digits : %d",iRet);
+    printf("Count of present Even Digits : %d\n",iRet);
 
     return 0;
 }

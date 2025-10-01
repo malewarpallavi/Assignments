@@ -1,11 +1,11 @@
-////////////////////////////////////////////////////////////////////////////////
-//
-// File name :   Program4.c
-// Description : Program which accept number from user & display below pattern
-// Author :      Pallavi Omprakash Malewar
-// Date :        10/07/2025
-//
-////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////
+//                                                                                  //
+// File name :   Program4.c                                                         //
+// Description : Program which accept number from user & display below pattern      //
+// Author :      Pallavi Omprakash Malewar                                          //
+// Date :        10/07/2025                                                         //
+//                                                                                  //
+//////////////////////////////////////////////////////////////////////////////////////
 
 
 /*
@@ -24,6 +24,7 @@ void Pattern(int iNo)
     {
         printf("#\t%d\t*\t" , iCount);
     }
+    printf("\n");
 }
 
 int main()
