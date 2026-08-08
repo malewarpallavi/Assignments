@@ -1,0 +1,60 @@
+/////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                     //
+// Problem Statement : Write Java program which accepts no. of rows and columns from   //
+//                     user & display below pattern                                    //
+// Author : Pallavi Omprakash Malewar                                                  //
+// Date : 30 Jun 2026                                                                  //
+//                                                                                     //
+/////////////////////////////////////////////////////////////////////////////////////////
+
+
+/*
+
+    Input : iRow = 4       iCol = 5
+    Output: 4   4   4   4   4
+            3   3   3   3   3
+            2   2   2   2   2
+            1   1   1   1   1
+
+
+*/
+
+
+import java.util.Scanner;
+
+class Pattern
+{
+    public void Pattern(int iRow, int iCol)
+    {
+        int i = 0, j = 0;
+        int iNo = iRow;
+
+        for(i = 0 ; i < iRow ; i++)
+        {
+            for(j = 0 ; j < iCol ; j++)
+            {
+                System.out.print(iNo + "\t");
+            }
+            System.out.println();
+            iNo--;
+        }
+    }
+}
+
+class Program4
+{
+    public static void main(String A[])
+    {
+        Scanner sobj = new Scanner(System.in);
+
+        System.out.print("Enter the length of Row : ");
+        int No1 = sobj.nextInt();
+
+        System.out.print("Enter the length of column : ");
+        int No2 = sobj.nextInt();
+
+        Pattern pobj = new Pattern();
+
+        pobj.Pattern(No1, No2);
+    }
+}
