@@ -1,0 +1,32 @@
+///////////////////////////////////////////////////////////////////////////////////
+//  
+// File name :   Program1.cpp
+// Description : Write generic program to multiply two numbers. 
+// Author :      Pallavi Omprakash Malewar
+// Date :        27/07/2026
+//
+///////////////////////////////////////////////////////////////////////////////////
+
+
+#include<iostream>
+using namespace std;
+
+template<class T>
+
+T Multiply(T no1, T no2)
+{
+    T ans;
+    ans = no1 * no2;
+    return ans;
+}
+
+int main()
+{
+    int iRet = Multiply(10, 20);
+    printf("%d\n", iRet);
+    
+    float fRet = Multiply(10.0f, 20.0f);
+    printf("%f\n", fRet);
+
+    return 0;
+}
